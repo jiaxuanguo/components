@@ -6,4 +6,9 @@
 5. > keylines are an alignment tool that enables consistent placement of elements outside of the layout grid
 6. container is an enclosed area that holds ui elements; it can be rigid or flexible
 7. use the consistent aspect ratios(width/height): 16:9; 3:2; 4:3; 1:1; 3:4; 2:3
-8. when flexible ratio is required, fix width to total width of column(s) and set height to auto
+8. when flexible ratio is required, fix width to total width of column(s) and let content determine height
+9. responsive cropping of images:
+    + maintain ratio
+    + switch ratios at breakpoints
+    + fixed height, fluid width
+10. touch targets should be at least 48dp * 48dp, with 8dp of spacing in between
